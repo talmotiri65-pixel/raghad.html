@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghad Turki | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="raghad.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Raghad Turki</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-section text-center py-5">
+        <div class="container">
+            <img src="images/profile.jpg" alt="Raghad Turki" class="rounded-circle mb-3 profile-img" width="150">
+            <h1 class="display-4 fw-bold text-white">Raghad Turki</h1>
+            <p class="lead text-white-50">Software Engineering Student | University of Jeddah</p>
+            <div class="objective-box mx-auto mt-3">
+                <p><strong>about me :</strong> A 3rd-year Software Engineering student at the University of Jeddah. My goal is to pursue higher education in my field and contribute to society through innovative software solutions.        My Email:ralmotairi144@gmail.com </p>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="education" class="mb-5">
+            <h2 class="section-title">Education</h2>
+            <div class="card p-4 shadow-sm border-blue">
+                <h4 class="text-blue">Bachelor of Software Engineering</h4>
+                <p><strong>University of Jeddah</strong> | <span class="badge bg-primary">In Progress</span></p>
+                <p class="text-muted">Expected Graduation Year: <strong>2027</strong></p>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-5">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="images/aqari_screenshot.jpg" class="card-img-top" alt="Aqari">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-blue">Aqari Platform</h5>
+                            <p>Smart real estate management platform for property listings.</p>
+                            <a href="Aqari.pdf" class="btn btn-primary btn-sm" target="_blank">Download and View project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="images/sign_language.jpg" class="card-img-top" alt="Sign Language">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-blue">Sign Language Assistant</h5>
+                            <p>Assistive technology using 3D avatars for translation.</p>
+                            <a href="RRT project .pptx" class="btn btn-primary btn-sm">Download and View project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-top-blue project-card">
+                        <div class="card-body d-flex flex-column justify-content-center text-center">
+                            <h5 class="fw-bold text-blue">Cinema Management</h5><p class="text-muted">A site designed to organize and manage cinema bookings and schedules.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mb-5">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="card p-4 shadow-sm">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold">Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="05xxxxxxxx" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Reason for Contact</label>
+                        <textarea class="form-control" rows="3" placeholder="How can I help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark-blue w-100 text-white fw-bold">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-light">
+        <p class="text-muted">&copy; 2026 Raghad Turki | University of Jeddah</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
